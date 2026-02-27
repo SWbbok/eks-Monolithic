@@ -34,7 +34,7 @@ jobs:
 
       - name: build and push docker image to ecr
         env:
-          REGISTRY: 8628203514866.dkr.ecr.ap-northeast-2.amazonaws.com
+          REGISTRY: 628203514866.dkr.ecr.ap-northeast-2.amazonaws.com
           REPOSITORY: order-backend
           IMAGE_TAG: latest
         run: |
